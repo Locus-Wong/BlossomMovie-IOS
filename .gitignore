@@ -1,55 +1,26 @@
-# Prerequisites
-*.d
+# Xcode
+build/
+DerivedData/
+xcuserdata/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# SwiftPM
+.build/
+Packages/
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# CocoaPods
+Pods/
+*.xcworkspace
+Podfile.lock
 
-# Precompiled Headers
-*.gch
-*.pch
+# Carthage
+Carthage/
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# Signing files
+*.p12
+*.mobileprovision
+*.cer
+*.pem
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Misc
+*.xcuserstate
+.DS_Store
