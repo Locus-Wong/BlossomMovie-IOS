@@ -26,7 +26,7 @@ struct HomeView: View {
                                     endPoint: .bottom)
                             }
                     } placeholder: {
-                        ProgressView()
+                        ProgressView() // as the image loads, the progress circle will show
                     }
                     .frame(width: geo.size.width, height: geo.size.height * 0.85)
                     

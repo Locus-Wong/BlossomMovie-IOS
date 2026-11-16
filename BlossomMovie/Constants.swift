@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SwiftUI
+import SwiftUI // used for calling swiftUI elements
 
 struct Constants {
     static let homeString = "Home"
